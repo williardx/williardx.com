@@ -20,22 +20,27 @@ module.exports = {
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
-      label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
-      iconClassName: "fa fa-github"
+      label: "Email",
+      url: "mailto:will@williardx.com",
+      iconName: "envelope"
+    },
+    {
+      label: "Instagram",
+      url: "https://instagram.com/williardx",
+      iconName: "instagram"
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/Vagr9K",
-      iconClassName: "fa fa-twitter"
+      url: "https://twitter.com/_williardx",
+      iconName: "twitter"
     },
     {
-      label: "Email",
-      url: "mailto:vagr9k@gmail.com",
-      iconClassName: "fa fa-envelope"
-    }
+      label: "GitHub",
+      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
+      iconName: "github"
+    },
   ],
-  copyright: "Copyright © 2017. Advanced User", // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2018. Will Doenlen", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0" // Used for setting manifest background color.
 };
