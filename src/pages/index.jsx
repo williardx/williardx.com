@@ -1,12 +1,14 @@
-import React, { Component } from "react";
-import Helmet from "react-helmet";
-import config from "../../data/SiteConfig";
+import React from "react"
+import Helmet from "react-helmet"
+import config from "../../data/SiteConfig"
+import Logo from "../components/Logo/Logo"
+import "./index.css"
 
 const Index = () => {
   return(
     <div className="index-container">
       <Helmet title={config.siteTitle} />
-      <h1>williardx<span className="index-period">.</span></h1>
+      <Logo />
     </div>
   )
 }

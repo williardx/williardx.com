@@ -1,0 +1,14 @@
+@import "../../utils/variables.css";
+
+.logo {
+    font-size: 48px;
+    position: relative;
+    bottom: 5%;
+}
+
+.logo-period {
+    font-size: 76px;
+    font-family: 'Times New Roman';
+    color: var(--orange, orange);
+}
+

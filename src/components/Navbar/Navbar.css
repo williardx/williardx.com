@@ -1,0 +1,28 @@
+@import "../../utils/variables.css";
+
+.navbar {
+    padding: 10px;
+    min-height: 60px;
+    border-bottom: 1px var(--lightest-gray, lightgray) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--light-gray, lightgray);
+    font-size: 20px;
+}
+
+.navbar .navigation a {
+}
+
+.navbar .user-links a {
+    font-size: 30px;
+}
+
+.navbar a:hover {
+    color: var(--orange, orange);
+}

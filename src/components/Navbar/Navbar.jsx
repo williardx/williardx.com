@@ -18,11 +18,13 @@ const Navbar = (props) => {
   return (
     <header className="navbar">
       { logo(displayLogo) }
-      <Link to="/about">About</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/writing">Writing</Link>
-      <Link to="/blog">Blog</Link>
-      <UserLinks config={config} labeled />
+      <div className="navigation">
+        <Link to="/about">About</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/writing">Writing</Link>
+        <Link to="/blog">Blog</Link>
+      </div>
+      <UserLinks config={config} />
     </header>
   );
 }
