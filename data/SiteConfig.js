@@ -36,7 +36,7 @@ module.exports = {
     },
     {
       label: "GitHub",
-      url: "https://github.com/Vagr9K/gatsby-advanced-starter",
+      url: "https://github.com/williardx",
       iconName: "github"
     },
   ],

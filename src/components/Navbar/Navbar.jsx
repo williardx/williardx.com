@@ -3,27 +3,20 @@ import Link from "gatsby-link";
 import config from "../../../data/SiteConfig";
 import UserLinks from "../UserLinks/UserLinks";
 import "./Navbar.css";
+import Logo from "../Logo/Logo";
 
 const Navbar = (props) => {
   const { displayLogo } = props
   const logo = (shouldDisplaylogo) => {
     if (!shouldDisplaylogo) return null
     return(
-      <div>
-        Logo stand-in
-      </div>
+      <Logo />
     )
   }
 
   return (
     <header className="navbar">
       { logo(displayLogo) }
-      <div className="navigation">
-        <Link to="/about">About</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/writing">Writing</Link>
-        <Link to="/blog">Blog</Link>
-      </div>
       <UserLinks config={config} />
     </header>
   );
